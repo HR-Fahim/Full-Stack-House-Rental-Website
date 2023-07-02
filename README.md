@@ -2,7 +2,7 @@
 
 This repository contains the web version of a full stack house rental website. The project aims to provide a platform for users to post and search for house rental ads. Additionally, it includes an Android version, which is maintained in a separate repository.<br/>
 
-<sub> ****P.S.*** The project was completed under CSE327 (Software Engineering) course offered by CSE, NSU (North South University).*<sub/>
+<sub> ****P.S.*** The project was completed under CSE327 (Software Engineering) course offered by North South University.*<sub/>
 
 ## Key Features
 
