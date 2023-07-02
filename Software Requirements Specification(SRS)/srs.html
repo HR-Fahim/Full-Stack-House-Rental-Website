@@ -426,9 +426,117 @@
   </div>
 
   <div class="w3-container w3-padding-32 w3-center">
-    <h1 id="apd_analysis" href="#"> Appendix B: Analysis Models </h1><br>
-    <h3>Use-Case Diagram:</h3>
-     <img src="Pictures\usecase_diagram.jpg" alt="usecase diagram" class="center2">
+      <!--<h1 id="apd_analysis" href="#"> Appendix B: Analysis Models </h1><br>
+    <h3>Use-Case Diagram:</h3>-->
+      <!--<img src="Pictures\usecase_diagram.jpg" alt="usecase diagram" class="center2">-->
+      <head>
+          <title>Appendix B: Analysis Models</title>
+          <style>
+              /* CSS styles for the diagram */
+              .use-case {
+                  margin: 20px;
+                  border: 1px solid #ddd;
+                  border-radius: 5px;
+                  padding: 20px;
+                  background-color: #f9f9f9;
+                  font-family: Arial, sans-serif;
+              }
+
+              .use-case-title {
+                  font-size: 24px;
+                  font-weight: bold;
+                  margin-bottom: 10px;
+              }
+
+              .actor {
+                  display: inline-block;
+                  padding: 10px;
+                  background-color: #f1f1f1;
+                  border: 1px solid #ccc;
+                  border-radius: 50%;
+                  text-align: center;
+                  font-size: 18px;
+              }
+
+              .actor-label {
+                  margin-top: 5px;
+                  font-size: 14px;
+              }
+
+              .use-case-line {
+                  width: 100%;
+                  border-bottom: 1px solid #ddd;
+                  margin-top: 20px;
+              }
+
+              .use-case-description {
+                  margin-top: 10px;
+                  font-size: 18px;
+              }
+
+              .use-case-list {
+                  margin-top: 10px;
+                  font-size: 14px;
+                  list-style-type: disc;
+                  margin-left: 20px;
+              }
+
+              .use-case-list-item {
+                  margin-bottom: 5px;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="w3-container w3-padding-32 w3-center">
+              <h1 id="apd_analysis" href="#"> Appendix B: Analysis Models </h1><br>
+              <h3>Use-Case Diagram:</h3>
+              <div class="use-case">
+                  <div class="use-case-title">Use Case Diagram Details</div>
+
+                  <!-- Actors -->
+                  <div class="actor">
+                      <div class="actor-label">User</div>
+                  </div>
+                  <div class="actor">
+                      <div class="actor-label">Admin</div>
+                  </div>
+
+                  <!-- Use Cases -->
+                  <div class="use-case-line"></div>
+                  <div class="use-case-description">User:</div>
+                  <ul class="use-case-list">
+                      <li class="use-case-list-item">Login</li>
+                      <li class="use-case-list-item">Post Ad</li>
+                      <li class="use-case-list-item">Search Ads</li>
+                      <li class="use-case-list-item">Voice Search</li>
+                      <li class="use-case-list-item">View Ads</li>
+                  </ul>
+
+                  <div class="use-case-line"></div>
+                  <div class="use-case-description">Admin:</div>
+                  <ul class="use-case-list">
+                      <li class="use-case-list-item">Login</li>
+                      <li class="use-case-list-item">Scrape Data</li>
+                      <li class="use-case-list-item">Manage Posts</li>
+                  </ul>
+
+                  <!-- Relationships -->
+                  <div class="use-case-line"></div>
+                  <div class="use-case-description">Relationships:</div>
+                  <ul class="use-case-list">
+                      <li class="use-case-list-item">User - Login</li>
+                      <li class="use-case-list-item">User - Post Ad</li>
+                      <li class="use-case-list-item">User - Search Ads</li>
+                      <li class="use-case-list-item">User - Voice Search</li>
+                      <li class="use-case-list-item">User - View Ads</li>
+                      <li class="use-case-list-item">Admin - Login</li>
+                      <li class="use-case-list-item">Admin - Scrape Data</li>
+                      <li class="use-case-list-item">User - Firebase</li>
+                      <li class="use-case-list-item">Admin - Firebase</li>
+                  </ul>
+              </div>
+          </div>
+      </body>
   </div>
   
 
