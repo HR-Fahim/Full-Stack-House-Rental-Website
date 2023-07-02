@@ -1,4 +1,6 @@
-# SRS stands for Software Requirements Specification. It is a comprehensive document that describes the requirements, functionalities, and constraints of a software system. The SRS serves as a communication tool between stakeholders, including clients, project managers, developers, and testers, to ensure a shared understanding of the system to be developed.
+# Software Requirements Specification
+
+SRS stands for Software Requirements Specification. It is a comprehensive document that describes the requirements, functionalities, and constraints of a software system. The SRS serves as a communication tool between stakeholders, including clients, project managers, developers, and testers, to ensure a shared understanding of the system to be developed.
 
 The SRS typically includes the following sections:
 
