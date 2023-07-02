@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\New Files",
+    "\\New Files\\Project",
+    "\\New Files\\Project\\main",
+    "\\Old Files",
+    "\\Old Files\\Login",
+    "\\Old Files\\Sign up"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\New Files\\README.md",
   "PreviewInSolutionExplorer": false
 }
