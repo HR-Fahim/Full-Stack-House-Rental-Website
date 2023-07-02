@@ -1,1 +1,4 @@
-New Folder for project updates.
+# Design Pattern and Django
+- Django follows the Active Record design pattern, an architectural pattern that stores in-memory object data in relational databases. This pattern encapsulates the business logic and data persistence of an application. In Django, the model class encapsulates every aspect of an object, and all the information needed to understand a given model is defined in the model class.
+
+- Django's use of the Active Record pattern provides a straightforward and efficient way to manage data and interact with the database. The model classes in Django serve as a bridge between the application's business logic and the underlying database, allowing for seamless data manipulation and retrieval.
